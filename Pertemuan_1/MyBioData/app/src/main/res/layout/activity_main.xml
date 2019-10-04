@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="MainActivity"
+    android:background="@color/colorLightCyan">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="5dp"
+        android:text ="Bio Data"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:src="@drawable/profil"
+        android:layout_gravity="center" />
+
+    <TextView
+        style="@style/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama : Reza Faizal Putra"
+        />
+
+    <TextView
+        style="@style/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM : 17104014" />
+
+    <TextView
+        style="@style/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TTL : Banyumas, 1 Januari 1999 " />
+
+    <TextView
+        style="@style/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prodi : S1 Rekayasa Perangkat Lunak" />
+
+    <TextView
+        style="@style/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cita-Cita : Programmer" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
