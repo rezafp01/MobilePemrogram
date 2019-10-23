@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAzur"
+    tools:context=".Login">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="50dp"
+            android:background="@color/colorPrimaryDark1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selamat Datang di Amin Studio"
+                android:textSize="25dp"
+                android:textColor="#fff"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contect_text"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:layout_marginTop="25dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp">
+
+                <Button
+                    android:id="@+id/btnReadmore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonstyle1"
+                    android:text="Selengkapnya"
+                    android:layout_margin="10dp"
+                    android:textColor="#fff"/>
+
+                <Button
+                    android:background="@drawable/buttonstyle"
+                    android:id="@+id/btnRegister"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gabung Sekarang"
+                    android:layout_margin="10dp"
+                    android:textColor="#fff"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:gravity="center">
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/user"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/user"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"/>
+
+            <Button
+                android:drawableRight="@drawable/ic_send_black_24dp"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="Login"
+                android:textColor="#fff"
+                android:background="@drawable/buttonstyle"
+                android:layout_marginBottom="@dimen/vertical_layout" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
